@@ -1,0 +1,22 @@
+{
+  "name": "symfony/ux-turbo",
+  "version": "0.0.1",
+  "description": " ",
+  "private": true,
+  "author": "Gabriel Solomon",
+  "license": "proprietary",
+  "scripts": {
+    "dev": "yarn run development",
+    "development": "yarn encore dev",
+    "prod": "yarn run production",
+    "production": "yarn encore prod"
+  },
+  "peerDependencies": {
+    "@hotwired/turbo": "^7.0.1",
+    "@hotwired/stimulus": "^3.0.0"
+  },
+  "devDependencies": {
+    "@hotwired/turbo": "^7.0.1",
+    "@hotwired/stimulus": "^3.0.0"
+  }
+}

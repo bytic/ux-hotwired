@@ -1,0 +1,32 @@
+{
+  "name": "bytic/ux-hotwired",
+  "type": "library",
+  "homepage": "https://github.com/bytic/ux-hotwired",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gabriel Solomon",
+      "email": "hello@gabrielsolomon.ro"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ByTIC\\UX\\Turbo\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "ByTIC\\UX\\Turbo\\Tests\\": "tests/src",
+      "ByTIC\\UX\\Turbo\\Tests\\Fixtures\\": "tests/fixtures"
+    }
+  },
+  "require": {
+    "php": "^7.4|^8.0",
+    "bytic/assets": "^1.0"
+  },
+  "require-dev": {
+    "bytic/phpqatools": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}

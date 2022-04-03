@@ -1,0 +1,14 @@
+.idea/workspace.xml
+.idea/codestream.xml
+
+.phpunit.result.cache
+
+dist
+
+node_modules
+vendor
+
+tests/_output/*
+
+composer.lock
+yarn.lock
